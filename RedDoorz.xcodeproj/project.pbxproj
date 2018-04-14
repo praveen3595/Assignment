@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1DDECB20811D4F00DEEEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDECA20811D4F00DEEEF5 /* AppDelegate.swift */; };
+		AC1DDECD20811D4F00DEEEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDECC20811D4F00DEEEF5 /* ViewController.swift */; };
+		AC1DDED220811D4F00DEEEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1DDED120811D4F00DEEEF5 /* Assets.xcassets */; };
+		AC1DDED520811D4F00DEEEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1DDED320811D4F00DEEEF5 /* LaunchScreen.storyboard */; };
+		AC1DDEE020811D4F00DEEEF5 /* RedDoorzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEDF20811D4F00DEEEF5 /* RedDoorzTests.swift */; };
+		AC1DDEEB20811EFC00DEEEF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEEA20811EFB00DEEEF5 /* Constants.swift */; };
+		AC1DDEED20811F4600DEEEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1DDEEC20811F4600DEEEF5 /* Main.storyboard */; };
+		AC1DDEF120811FFD00DEEEF5 /* LivePostProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEF020811FFD00DEEEF5 /* LivePostProtocols.swift */; };
+		AC1DDEF42081201B00DEEEF5 /* LivePostRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEF32081201B00DEEEF5 /* LivePostRouter.swift */; };
+		AC1DDEF72081204600DEEEF5 /* LivePostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEF62081204600DEEEF5 /* LivePostModel.swift */; };
+		AC1DDEFA2081206300DEEEF5 /* LivePostInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEF92081206300DEEEF5 /* LivePostInterector.swift */; };
+		AC1DDEFD2081208100DEEEF5 /* LivePostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEFC2081208100DEEEF5 /* LivePostPresenter.swift */; };
+		AC1DDF01208120A500DEEEF5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDEFF208120A400DEEEF5 /* PostTableViewCell.swift */; };
+		AC1DDF02208120A500DEEEF5 /* LivePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDF00208120A500DEEEF5 /* LivePostViewController.swift */; };
+		AC1DDF052081233600DEEEF5 /* PostDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDF042081233600DEEEF5 /* PostDetailPresenter.swift */; };
+		AC1DDF082081235900DEEEF5 /* PostDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDF072081235900DEEEF5 /* PostDetailProtocols.swift */; };
+		AC1DDF0E208123CC00DEEEF5 /* PostDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDF0D208123CC00DEEEF5 /* PostDetailRouter.swift */; };
+		AC1DDF10208123D500DEEEF5 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDF0F208123D500DEEEF5 /* PostDetailView.swift */; };
+		AC1DDF192081457100DEEEF5 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDF182081457000DEEEF5 /* UIImageViewX.swift */; };
+		AC1DDF1B2081997D00DEEEF5 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DDF1A2081997D00DEEEF5 /* UIButtonX.swift */; };
+		AFFE67CD935F4D6212EC8567 /* Pods_RedDoorz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFEB9D0B7BEEC851C7F7BC4 /* Pods_RedDoorz.framework */; };
+		DB98B4D0E2760C4BEEB97FDD /* Pods_RedDoorzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048722FB988541BC8FA8A79E /* Pods_RedDoorzTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1DDEDC20811D4F00DEEEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1DDEBF20811D4F00DEEEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1DDEC620811D4F00DEEEF5;
+			remoteInfo = RedDoorz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048722FB988541BC8FA8A79E /* Pods_RedDoorzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedDoorzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B6D25155FE9E95DF299CA2 /* Pods-RedDoorzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedDoorzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedDoorzTests/Pods-RedDoorzTests.release.xcconfig"; sourceTree = "<group>"; };
+		61284F5BC4C513F08D486370 /* Pods-RedDoorzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedDoorzTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedDoorzTests/Pods-RedDoorzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69175D8BF831B491ED08DCB5 /* Pods-RedDoorz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedDoorz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedDoorz/Pods-RedDoorz.debug.xcconfig"; sourceTree = "<group>"; };
+		843DC620F094E7F494E831CF /* Pods-RedDoorz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedDoorz.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedDoorz/Pods-RedDoorz.release.xcconfig"; sourceTree = "<group>"; };
+		AAFEB9D0B7BEEC851C7F7BC4 /* Pods_RedDoorz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedDoorz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1DDEC720811D4F00DEEEF5 /* RedDoorz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedDoorz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1DDECA20811D4F00DEEEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC1DDECC20811D4F00DEEEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC1DDED120811D4F00DEEEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC1DDED420811D4F00DEEEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1DDED620811D4F00DEEEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1DDEDB20811D4F00DEEEF5 /* RedDoorzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedDoorzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1DDEDF20811D4F00DEEEF5 /* RedDoorzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDoorzTests.swift; sourceTree = "<group>"; };
+		AC1DDEE120811D4F00DEEEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1DDEEA20811EFB00DEEEF5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC1DDEEC20811F4600DEEEF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AC1DDEF020811FFD00DEEEF5 /* LivePostProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePostProtocols.swift; sourceTree = "<group>"; };
+		AC1DDEF32081201B00DEEEF5 /* LivePostRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePostRouter.swift; sourceTree = "<group>"; };
+		AC1DDEF62081204600DEEEF5 /* LivePostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePostModel.swift; sourceTree = "<group>"; };
+		AC1DDEF92081206300DEEEF5 /* LivePostInterector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePostInterector.swift; sourceTree = "<group>"; };
+		AC1DDEFC2081208100DEEEF5 /* LivePostPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePostPresenter.swift; sourceTree = "<group>"; };
+		AC1DDEFF208120A400DEEEF5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AC1DDF00208120A500DEEEF5 /* LivePostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivePostViewController.swift; sourceTree = "<group>"; };
+		AC1DDF042081233600DEEEF5 /* PostDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailPresenter.swift; sourceTree = "<group>"; };
+		AC1DDF072081235900DEEEF5 /* PostDetailProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailProtocols.swift; sourceTree = "<group>"; };
+		AC1DDF0D208123CC00DEEEF5 /* PostDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailRouter.swift; sourceTree = "<group>"; };
+		AC1DDF0F208123D500DEEEF5 /* PostDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		AC1DDF182081457000DEEEF5 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		AC1DDF1A2081997D00DEEEF5 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1DDEC420811D4F00DEEEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFE67CD935F4D6212EC8567 /* Pods_RedDoorz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1DDED820811D4F00DEEEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB98B4D0E2760C4BEEB97FDD /* Pods_RedDoorzTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F2DE669C5B95555B613A70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69175D8BF831B491ED08DCB5 /* Pods-RedDoorz.debug.xcconfig */,
+				843DC620F094E7F494E831CF /* Pods-RedDoorz.release.xcconfig */,
+				61284F5BC4C513F08D486370 /* Pods-RedDoorzTests.debug.xcconfig */,
+				22B6D25155FE9E95DF299CA2 /* Pods-RedDoorzTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC1DDEBE20811D4F00DEEEF5 = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEC920811D4F00DEEEF5 /* RedDoorz */,
+				AC1DDEDE20811D4F00DEEEF5 /* RedDoorzTests */,
+				AC1DDEC820811D4F00DEEEF5 /* Products */,
+				63F2DE669C5B95555B613A70 /* Pods */,
+				DF9190CD941D4B2C60C26454 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1DDEC820811D4F00DEEEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEC720811D4F00DEEEF5 /* RedDoorz.app */,
+				AC1DDEDB20811D4F00DEEEF5 /* RedDoorzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1DDEC920811D4F00DEEEF5 /* RedDoorz */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF1C2081DBC200DEEEF5 /* Common */,
+				AC1DDEEE20811FBC00DEEEF5 /* HomePosts */,
+				AC1DDF112081244300DEEEF5 /* PostDetail */,
+				AC1DDECA20811D4F00DEEEF5 /* AppDelegate.swift */,
+				AC1DDECC20811D4F00DEEEF5 /* ViewController.swift */,
+				AC1DDEEC20811F4600DEEEF5 /* Main.storyboard */,
+				AC1DDED120811D4F00DEEEF5 /* Assets.xcassets */,
+				AC1DDED320811D4F00DEEEF5 /* LaunchScreen.storyboard */,
+				AC1DDED620811D4F00DEEEF5 /* Info.plist */,
+			);
+			path = RedDoorz;
+			sourceTree = "<group>";
+		};
+		AC1DDEDE20811D4F00DEEEF5 /* RedDoorzTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEDF20811D4F00DEEEF5 /* RedDoorzTests.swift */,
+				AC1DDEE120811D4F00DEEEF5 /* Info.plist */,
+			);
+			path = RedDoorzTests;
+			sourceTree = "<group>";
+		};
+		AC1DDEEE20811FBC00DEEEF5 /* HomePosts */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEEF20811FE500DEEEF5 /* Module */,
+			);
+			path = HomePosts;
+			sourceTree = "<group>";
+		};
+		AC1DDEEF20811FE500DEEEF5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF03208120AB00DEEEF5 /* View */,
+				AC1DDEFE2081208900DEEEF5 /* Presenter */,
+				AC1DDEFB2081206800DEEEF5 /* Interector */,
+				AC1DDEF82081204D00DEEEF5 /* Entity */,
+				AC1DDEF52081201F00DEEEF5 /* Route */,
+				AC1DDEF22081200400DEEEF5 /* Protocols */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		AC1DDEF22081200400DEEEF5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEF020811FFD00DEEEF5 /* LivePostProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AC1DDEF52081201F00DEEEF5 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEF32081201B00DEEEF5 /* LivePostRouter.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		AC1DDEF82081204D00DEEEF5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEF62081204600DEEEF5 /* LivePostModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AC1DDEFB2081206800DEEEF5 /* Interector */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEF92081206300DEEEF5 /* LivePostInterector.swift */,
+			);
+			path = Interector;
+			sourceTree = "<group>";
+		};
+		AC1DDEFE2081208900DEEEF5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDEFC2081208100DEEEF5 /* LivePostPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AC1DDF03208120AB00DEEEF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF00208120A500DEEEF5 /* LivePostViewController.swift */,
+				AC1DDEFF208120A400DEEEF5 /* PostTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC1DDF062081234000DEEEF5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF072081235900DEEEF5 /* PostDetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AC1DDF112081244300DEEEF5 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF15208124A300DEEEF5 /* Module */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		AC1DDF122081246900DEEEF5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF042081233600DEEEF5 /* PostDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AC1DDF132081247700DEEEF5 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF0D208123CC00DEEEF5 /* PostDetailRouter.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		AC1DDF142081248300DEEEF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF0F208123D500DEEEF5 /* PostDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC1DDF15208124A300DEEEF5 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF122081246900DEEEF5 /* Presenter */,
+				AC1DDF132081247700DEEEF5 /* Route */,
+				AC1DDF142081248300DEEEF5 /* View */,
+				AC1DDF062081234000DEEEF5 /* Protocols */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		AC1DDF1C2081DBC200DEEEF5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DDF1A2081997D00DEEEF5 /* UIButtonX.swift */,
+				AC1DDF182081457000DEEEF5 /* UIImageViewX.swift */,
+				AC1DDEEA20811EFB00DEEEF5 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DF9190CD941D4B2C60C26454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAFEB9D0B7BEEC851C7F7BC4 /* Pods_RedDoorz.framework */,
+				048722FB988541BC8FA8A79E /* Pods_RedDoorzTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1DDEC620811D4F00DEEEF5 /* RedDoorz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1DDEE420811D4F00DEEEF5 /* Build configuration list for PBXNativeTarget "RedDoorz" */;
+			buildPhases = (
+				D1A3ACC15F3DDC4CCEA93E26 /* [CP] Check Pods Manifest.lock */,
+				AC1DDEC320811D4F00DEEEF5 /* Sources */,
+				AC1DDEC420811D4F00DEEEF5 /* Frameworks */,
+				AC1DDEC520811D4F00DEEEF5 /* Resources */,
+				167587A02A46F38B4003D3F1 /* [CP] Embed Pods Frameworks */,
+				F7CCD88598CC220AA464408F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedDoorz;
+			productName = RedDoorz;
+			productReference = AC1DDEC720811D4F00DEEEF5 /* RedDoorz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC1DDEDA20811D4F00DEEEF5 /* RedDoorzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1DDEE720811D4F00DEEEF5 /* Build configuration list for PBXNativeTarget "RedDoorzTests" */;
+			buildPhases = (
+				61D0A9D6D6340F4CD998D039 /* [CP] Check Pods Manifest.lock */,
+				AC1DDED720811D4F00DEEEF5 /* Sources */,
+				AC1DDED820811D4F00DEEEF5 /* Frameworks */,
+				AC1DDED920811D4F00DEEEF5 /* Resources */,
+				0B5506F9C4EA02FE90A8CC4B /* [CP] Embed Pods Frameworks */,
+				7E4DAC900505F8F13B2171C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1DDEDD20811D4F00DEEEF5 /* PBXTargetDependency */,
+			);
+			name = RedDoorzTests;
+			productName = RedDoorzTests;
+			productReference = AC1DDEDB20811D4F00DEEEF5 /* RedDoorzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1DDEBF20811D4F00DEEEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Praveen Singh";
+				TargetAttributes = {
+					AC1DDEC620811D4F00DEEEF5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AC1DDEDA20811D4F00DEEEF5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC1DDEC620811D4F00DEEEF5;
+					};
+				};
+			};
+			buildConfigurationList = AC1DDEC220811D4F00DEEEF5 /* Build configuration list for PBXProject "RedDoorz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1DDEBE20811D4F00DEEEF5;
+			productRefGroup = AC1DDEC820811D4F00DEEEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1DDEC620811D4F00DEEEF5 /* RedDoorz */,
+				AC1DDEDA20811D4F00DEEEF5 /* RedDoorzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1DDEC520811D4F00DEEEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1DDEED20811F4600DEEEF5 /* Main.storyboard in Resources */,
+				AC1DDED520811D4F00DEEEF5 /* LaunchScreen.storyboard in Resources */,
+				AC1DDED220811D4F00DEEEF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1DDED920811D4F00DEEEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B5506F9C4EA02FE90A8CC4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RedDoorzTests/Pods-RedDoorzTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedDoorzTests/Pods-RedDoorzTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167587A02A46F38B4003D3F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RedDoorz/Pods-RedDoorz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedDoorz/Pods-RedDoorz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D0A9D6D6340F4CD998D039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedDoorzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4DAC900505F8F13B2171C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedDoorzTests/Pods-RedDoorzTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A3ACC15F3DDC4CCEA93E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedDoorz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CCD88598CC220AA464408F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedDoorz/Pods-RedDoorz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1DDEC320811D4F00DEEEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1DDF0E208123CC00DEEEF5 /* PostDetailRouter.swift in Sources */,
+				AC1DDEF120811FFD00DEEEF5 /* LivePostProtocols.swift in Sources */,
+				AC1DDEF42081201B00DEEEF5 /* LivePostRouter.swift in Sources */,
+				AC1DDF082081235900DEEEF5 /* PostDetailProtocols.swift in Sources */,
+				AC1DDEF72081204600DEEEF5 /* LivePostModel.swift in Sources */,
+				AC1DDECD20811D4F00DEEEF5 /* ViewController.swift in Sources */,
+				AC1DDF192081457100DEEEF5 /* UIImageViewX.swift in Sources */,
+				AC1DDEFA2081206300DEEEF5 /* LivePostInterector.swift in Sources */,
+				AC1DDECB20811D4F00DEEEF5 /* AppDelegate.swift in Sources */,
+				AC1DDF052081233600DEEEF5 /* PostDetailPresenter.swift in Sources */,
+				AC1DDEEB20811EFC00DEEEF5 /* Constants.swift in Sources */,
+				AC1DDEFD2081208100DEEEF5 /* LivePostPresenter.swift in Sources */,
+				AC1DDF1B2081997D00DEEEF5 /* UIButtonX.swift in Sources */,
+				AC1DDF10208123D500DEEEF5 /* PostDetailView.swift in Sources */,
+				AC1DDF01208120A500DEEEF5 /* PostTableViewCell.swift in Sources */,
+				AC1DDF02208120A500DEEEF5 /* LivePostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1DDED720811D4F00DEEEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1DDEE020811D4F00DEEEF5 /* RedDoorzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC1DDEDD20811D4F00DEEEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1DDEC620811D4F00DEEEF5 /* RedDoorz */;
+			targetProxy = AC1DDEDC20811D4F00DEEEF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC1DDED320811D4F00DEEEF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1DDED420811D4F00DEEEF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1DDEE220811D4F00DEEEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC1DDEE320811D4F00DEEEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1DDEE520811D4F00DEEEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69175D8BF831B491ED08DCB5 /* Pods-RedDoorz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedDoorz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Praveen.RedDoorz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1DDEE620811D4F00DEEEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843DC620F094E7F494E831CF /* Pods-RedDoorz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedDoorz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Praveen.RedDoorz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC1DDEE820811D4F00DEEEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61284F5BC4C513F08D486370 /* Pods-RedDoorzTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedDoorzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Praveen.RedDoorzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedDoorz.app/RedDoorz";
+			};
+			name = Debug;
+		};
+		AC1DDEE920811D4F00DEEEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B6D25155FE9E95DF299CA2 /* Pods-RedDoorzTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RedDoorzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Praveen.RedDoorzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedDoorz.app/RedDoorz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1DDEC220811D4F00DEEEF5 /* Build configuration list for PBXProject "RedDoorz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1DDEE220811D4F00DEEEF5 /* Debug */,
+				AC1DDEE320811D4F00DEEEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1DDEE420811D4F00DEEEF5 /* Build configuration list for PBXNativeTarget "RedDoorz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1DDEE520811D4F00DEEEF5 /* Debug */,
+				AC1DDEE620811D4F00DEEEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1DDEE720811D4F00DEEEF5 /* Build configuration list for PBXNativeTarget "RedDoorzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1DDEE820811D4F00DEEEF5 /* Debug */,
+				AC1DDEE920811D4F00DEEEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1DDEBF20811D4F00DEEEF5 /* Project object */;
+}
